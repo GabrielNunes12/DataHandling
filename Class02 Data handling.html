@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            font: oblique 15pt Arial;
+        }
+        h1{
+            color: rgb(16, 221, 33);
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>I'm free now!</p>
+    <script>
+       var name = String(window.prompt('type your name: '));
+       document.writeln(`Hello, ${name}! Your name have ${name.length} character <br>`);
+       document.write(`Your name in upper case is ${name.toUpperCase()}`);
+       if (s >= 16){
+           window.alert('Congrats, your number is ' + s);
+       }
+    </script>
+</body>
+</html>
+<!--(var).toFixed().replace();-->
+<!--(var).toLocaleString('pt-BR', {style: 'currency' , currency: 'BRL'});-->
